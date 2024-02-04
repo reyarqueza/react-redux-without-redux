@@ -1,5 +1,5 @@
-import React, { useContext } from "react";
-import { AppContext } from "..";
+import React, { useContext } from 'react';
+import { AppContext } from './AppContext.jsx';
 
 export default function Slider(props) {
   const { label, id, legend } = props;

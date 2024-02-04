@@ -1,5 +1,5 @@
-import React, { useContext } from "react";
-import { AppContext } from "..";
+import React, { useContext } from 'react';
+import { AppContext } from './AppContext.jsx';
 
 export default function Dashboard() {
   const { state } = useContext(AppContext);
